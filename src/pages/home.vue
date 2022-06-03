@@ -1,13 +1,13 @@
 <template>
     <section class="homeContent">
-    <div class="fadeup-enter-done" style="transition-delay: 100ms;"><h1>Hi, my name is</h1></div>
-    <div class="fadeup-enter-done" style="transition-delay: 100ms;">
+    <div class="fadeup-enter-done"><h1>Hi, my name is</h1></div>
+    <div class="fadeup-enter-done">
         <h2 class="big-heading">Benson Arafat</h2>
     </div>
-    <div class="fadeup-enter-done" style="transition-delay: 100ms;">
+    <div class="fadeup-enter-done">
         <h3 class="big-heading">  <VueWriter :array="arr" /></h3>
     </div>
-    <div class="fadeup-enter-done" style="transition-delay: 400ms;">
+    <div class="fadeup-enter-done">
         <p>
         I'm a software engineer specializing in building (and occasionally in the backend) exceptional digital experiences. Currently, I'm focused on building web applications at <a href="https://www.jubileesys.com/" target="_blank" rel="noreferrer">Jubilee System</a>.
         </p>
@@ -41,16 +41,31 @@
     font-family: "Calibre";
 }
 .homeContent p {
-    margin: 20px 0px 0px;
+    margin: 20px 0px 0px !important;
     max-width: 540px;
 }
 
 </style>
 <script>
+// import anime from 'animejs';
+
+// var tl = anime.timeline({
+//   easing: 'easeOutExpo',
+//   duration: 750
+// });
 export default{
     name: "HomePage",
     data() {
       return { arr: ["I build things for the web.", "I also build awesome apps."] };
     },
+    mounted (){
+        // this
+        // .add({
+        // targets: '.basic-timeline-demo .el.square',
+        // translateX: 250,
+        // })
+    
+    }
+
 }
 </script>

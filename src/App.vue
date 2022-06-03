@@ -1,13 +1,8 @@
 <template>
-  <div class="layout bg-white dark:bg-slate-900">
+  <div class="layout bg-white dark:bg-slate-900 ">
     <AppHeader/>
     <div class="content">
-      <div class="container mx-auto px-40">
-          <HomePage/>
-          <AboutPage/>
-          <ExperiencePage/>
-          <ContactPage/>
-      </div>
+        <router-view/>
         <AppFooter/>
     </div>
   </div>
@@ -24,6 +19,24 @@
   src: local("Calibre"),
    url(./assets/fonts/Calibre/Calibre-Regular.ttf) format("truetype");
 }
+
+body::-webkit-scrollbar {
+  width:0.3em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px #a8b2d1;
+}
+ body::-webkit-scrollbar {
+    width: 3px;
+    height: 4px;
+  }
+body::-webkit-scrollbar-thumb {
+  background-color: #a8b2d1;
+  outline: 1px solid #a8b2d1;
+   border-radius: 10px;
+}
+
 body{
   font-family: 'SFMono';
   color:#8892b0;
@@ -65,23 +78,16 @@ section {
     font-weight: 600;
 }
 
+
 </style>
 <script>
 
 import AppHeader from './components/header';
 import AppFooter from './components/footer';
-import HomePage from './pages/home';
-import AboutPage from './pages/about'; 
-import ExperiencePage from './pages/experience'; 
-import ContactPage from './pages/contact';
 export default {
   name: 'App',
   components: {
     AppHeader, 
-    HomePage, 
-    AboutPage,
-    ExperiencePage,
-    ContactPage, 
     AppFooter,
   }
 }

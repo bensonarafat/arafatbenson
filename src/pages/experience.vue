@@ -1,5 +1,5 @@
 <template>
-    <section class="jobs">
+    <section id="experience" class="jobs">
         <h2 class="numbered-heading">Where I've Worked</h2>
         <div class="inner">
             <ol class="relative border-l border-gray-200 dark:border-gray-700">
