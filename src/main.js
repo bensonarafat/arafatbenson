@@ -4,6 +4,7 @@ import './assets/tailwind.css'
 import VueWriter from 'vue-writer'
 import router  from './router'
 import anime from 'animejs'
+import 'flowbite';
 
 createApp(App)
 .use(router)

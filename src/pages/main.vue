@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto px-40 md:p-4">
+    <div class="container mx-auto md:px-40 px-8 sm:px-40">
         <HomePage/>
         <AboutPage/>
         <ExperiencePage/> 

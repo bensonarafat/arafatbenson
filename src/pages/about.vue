@@ -1,8 +1,8 @@
 <template>
   <section id="about" class="aboutContent">
     <h2 class="numbered-heading">About Me</h2>
-    <div class="inner">
-      <div class="kNIdQM">
+    <div class="grid grid-cols-1 gap-5 md:grid-flow-col md:gap-5">
+      <div class="about-content">
         <p class="text-justify">
           Hello! My name is Ben and I enjoy creating things that live on the
           internet. My interest in web development started back in 2015 when I
@@ -15,170 +15,125 @@
 
         <h6 class="skills-heading">Web</h6>
         <div class="grid grid-cols-4 gap-4" style="text-align: -webkit-center">
-          <div>
-            <div class="grid grid-rows-2 grid-flow-col gap-2">
               <div>
                 <img src="../assets/icons/stack/php.svg" alt="" width="50" />
+                  <div class="mt-1.5"><span class="text-sm md:text-base">PHP</span></div>
               </div>
-              <div><span>PHP</span></div>
-            </div>
-          </div>
-          <div>
-            <div class="grid grid-rows-2 grid-flow-col gap-2">
+
               <div>
                 <img
                   src="../assets/icons/stack/laravel.svg"
                   alt=""
                   width="50"
                 />
-              </div>
-              <div><span>Laravel</span></div>
+              <div class="mt-1.5"><span class="text-sm md:text-base">Laravel</span></div>
             </div>
-          </div>
-          <div>
-            <div class="grid grid-rows-2 grid-flow-col gap-2">
-              <div>
+
+            <div>
                 <img
                   src="../assets/icons/stack/bootstrap.svg"
                   alt=""
                   width="50"
                 />
-              </div>
-              <div><span>Bootstrap</span></div>
-            </div>
+              <div class="mt-1.5"><span class="text-sm md:text-base">Bootstrap</span></div>
           </div>
+
           <div>
-            <div class="grid grid-rows-2 grid-flow-col gap-2">
-              <div>
-                <img src="../assets/icons/stack/css3.svg" alt="" width="50" />
-              </div>
-              <div><span>CSS</span></div>
-            </div>
+            <img src="../assets/icons/stack/css3.svg" alt="" width="50" />
+              <div class="mt-1.5"> <span class="text-sm md:text-base">CSS</span></div>
           </div>
-          <div>
-            <div class="grid grid-rows-2 grid-flow-col gap-2">
-              <div>
+
+           <div>
                 <img
                   src="../assets/icons/stack/tailwind.svg"
                   alt=""
                   width="50"
                 />
-              </div>
-              <div><span>Tailwind</span></div>
-            </div>
+              <div class="mt-1.5"><span class="text-sm md:text-base">Tailwind</span></div>
           </div>
-          <div>
-            <div class="grid grid-rows-2 grid-flow-col gap-2">
-              <div>
+
+            <div>
                 <img src="../assets/icons/stack/vue.svg" alt="" width="50" />
-              </div>
-              <div><span>Vue</span></div>
-            </div>
+              <div><span class="text-sm md:text-base">Vue</span></div>
           </div>
+
+
           <div>
-            <div class="grid grid-rows-2 grid-flow-col gap-2">
-              <div>
                 <img src="../assets/icons/stack/html.svg" alt="" width="50" />
-              </div>
-              <div><span>HTML</span></div>
-            </div>
+              <div class="mt-1.5"><span class="text-sm md:text-base">HTML</span></div>
           </div>
+
+
+
           <div>
-            <div class="grid grid-rows-2 grid-flow-col gap-2">
-              <div>
                 <img
                   src="../assets/icons/stack/javascript.svg"
                   alt=""
                   width="50"
                 />
-              </div>
-              <div><span>Javascript</span></div>
-            </div>
+              <div class="mt-1.5"><span class="text-sm md:text-base">Javascript</span></div>
           </div>
+
+
         </div>
+      
         <h6 class="skills-heading">Mobile</h6>
         <div class="grid grid-cols-4 gap-4" style="text-align: -webkit-center">
           <div>
-            <div class="grid grid-rows-2 grid-flow-col gap-2">
-              <div>
                 <img
                   src="../assets/icons/stack/android.svg"
                   alt=""
                   width="50"
                 />
-              </div>
-              <div><span>Android Studio</span></div>
-            </div>
+              <div class="mt-1.5"><span class="text-sm md:text-base">Android Studio</span></div>
           </div>
 
           <div>
-            <div class="grid grid-rows-2 grid-flow-col gap-2">
-              <div>
                 <img src="../assets/icons/stack/dart.svg" alt="" width="50" />
-              </div>
-              <div><span>Dart</span></div>
-            </div>
+              <div class="mt-1.5"><span class="text-sm md:text-base">Dart</span></div>
           </div>
 
           <div>
-            <div class="grid grid-rows-2 grid-flow-col gap-2">
-              <div>
                 <img
                   src="../assets/icons/stack/flutter.svg"
                   alt=""
                   width="50"
                 />
-              </div>
-              <div><span>Flutter</span></div>
-            </div>
+              <div class="mt-1.5"><span class="text-sm md:text-base">Flutter</span></div>
           </div>
+
         </div>
         <h6 class="skills-heading">Database</h6>
         <div class="grid grid-cols-4 gap-4" style="text-align: -webkit-center">
           <div>
-            <div class="grid grid-rows-2 grid-flow-col gap-2">
-              <div>
                 <img src="../assets/icons/stack/mysql.svg" alt="" width="50" />
-              </div>
-              <div><span>MySQL</span></div>
-            </div>
+              <div class="mt-1.5"><span class="text-sm md:text-base">MySQL</span></div>
           </div>
+
           <div>
-            <div class="grid grid-rows-2 grid-flow-col gap-2">
-              <div>
                 <img
                   src="../assets/icons/stack/postgresql.svg"
                   alt=""
                   width="50"
                 />
-              </div>
-              <div><span>PostgreSQL</span></div>
-            </div>
+              <div class="mt-1.5"><span class="text-sm md:text-base">PostgreSQL</span></div>
           </div>
         </div>
 
         <h6 class="skills-heading">Tools</h6>
         <div class="grid grid-cols-5 gap-4" style="text-align: -webkit-center">
           <div>
-            <div class="grid grid-rows-2 grid-flow-col gap-2">
-              <div>
-                <img src="../assets/icons/stack/api.svg" alt="" width="50" />
-              </div>
-            </div>
-            <div><span>REST API</span></div>
+              <img src="../assets/icons/stack/api.svg" alt="" width="50" />
+              <div class="mt-1.5"><span class="text-sm md:text-base">REST API</span></div>
           </div>
           <div>
-            <div class="grid grid-rows-2 grid-flow-col gap-2">
-              <div>
                 <img src="../assets/icons/stack/git.svg" alt="" width="50" />
-              </div>
-              <div><span>Git</span></div>
-            </div>
+              <div class="mt-1.5"><span class="text-sm md:text-base">Git</span></div>
           </div>
         </div>
       </div>
 
-      <div class="iTdkQf">
+      <div class="avatar-content">
         <div class="wrapper">
             <img
               src="../assets/image/ben.jpg"
@@ -194,11 +149,12 @@
 
 
 <style>
-.iTdkQf {
+.avatar-content {
     position: relative;
     max-width: 300px;
+    justify-self: center;
 }
-.iTdkQf .wrapper {
+.avatar-content .wrapper {
     box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
     transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
     display: block;
@@ -207,14 +163,14 @@
     border-radius: 4px;
     background-color: #64ffda;
 }
-.iTdkQf .wrapper img:hover{
+.avatar-content .wrapper img:hover{
     mix-blend-mode: normal;
     filter: none;
     transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
 }
 
 
-.iTdkQf .wrapper img{
+.avatar-content .wrapper img{
     position: relative;
     border-radius: 4px;
     mix-blend-mode: multiply;
@@ -228,19 +184,19 @@
     z-index: 1;
 }
 
-.iTdkQf .wrapper::after {
+.avatar-content .wrapper::after {
     border: 2px solid #64ffda;
     top: 20px;
     left: 20px;
 }
-.iTdkQf .wrapper::before {
+.avatar-content .wrapper::before {
     top: 0px;
     left: 0px;
     background-color: #0a192f;
     mix-blend-mode: screen;
 }
 
-.iTdkQf .wrapper::before, .iTdkQf .wrapper::after {
+.avatar-content .wrapper::before, .avatar-content .wrapper::after {
     content: "";
     display: block;
     position: absolute;
@@ -255,7 +211,7 @@
   -webkit-box-align: center;
   align-items: center;
   position: relative;
-  margin: 40px 0px 20px;
+  margin: 10px 0px 20px;
   width: 100%;
   font-family: "SFMono";
   font-size: 18px;
@@ -278,13 +234,7 @@
   max-width: 900px;
 }
 
-.inner {
-  display: grid;
-  grid-template-columns: 3fr 2fr;
-  gap: 50px;
-}
-
-.kNIdQM ul.skills-list {
+.about-content ul.skills-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
   gap: 0px 10px;
@@ -294,12 +244,12 @@
   list-style: none;
 }
 
-.iTdkQf {
+.avatar-content {
   position: relative;
-  max-width: 300px;
+  max-width: 200px;
 }
 
-.iTdkQf .wrapper {
+.avatar-content .wrapper {
   box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   display: block;
@@ -309,7 +259,7 @@
   background-color: #64ffda;
 }
 
-.iTdkQf .wrapper::before {
+.avatar-content .wrapper::before {
   top: 0px;
   left: 0px;
   background-color: #0a192f;

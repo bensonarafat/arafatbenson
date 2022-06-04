@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto px-100 md:p-4">
+    <div class="container mx-auto md:px-40 px-8 sm:px-40">
         <section>
             <header>
                 <h1 class="big-heading">Archive</h1>
@@ -12,19 +12,45 @@
                         <tr>
                             <th class="w-10">Year</th>
                             <th class="w-20">Title</th>
-                            <th class="hide-on-mobile w-20">Made at</th>
-                            <th class="hide-on-mobile w-40">Built with</th>
+                            <th class="hidden w-20">Made at</th>
+                            <th class="hidden w-40">Built with</th>
                             <th class="w-10">Link</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="year">2022</td>
-                            <td class="title">Personal Website</td>
-                            <td class="company hide-on-mobile">
+                            <td class="title">Status Saver</td>
+                            <td class="company hidden">
                                 <span>-</span>
                             </td>
-                            <td class="tech hide-on-mobile">
+                            <td class="tech hidden">
+                                <span>
+                                    Flutter
+                                    <span class="separator">·</span>
+                                </span>
+                                <span>
+                                    Dart
+                                </span>
+                               
+                                
+                            </td>
+                            <td class="link flex">
+                                <a href="https://github.com/realArafatBen/status_saver" aria-label="Github" rel="noopener noreferrer" target="_blank">
+                                    <img src="../assets/icons/github.svg" alt="" width="20px">
+                                </a>
+                                <a href="#" aria-label="Android" rel="noopener noreferrer" target="_blank">
+                                    <img src="../assets/icons/android.svg" alt="" width="20px">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="year">2022</td>
+                            <td class="title">Personal Website</td>
+                            <td class="company hidden">
+                                <span>-</span>
+                            </td>
+                            <td class="tech hidden">
                                 <span>
                                     Tailwind
                                     <span class="separator">·</span>
@@ -47,13 +73,38 @@
                                 </a>
                             </td>
                         </tr>
+                            <tr>
+                            <td class="year">2022</td>
+                            <td class="title">Cubana Suites</td>
+                            <td class="company hidden">
+                                <span>Jubilee System LTD</span>
+                            </td>
+                            <td class="tech hidden">
+                                <span>
+                                    Laravel
+                                    <span class="separator">·</span>
+                                </span>
+                                <span>
+                                    PHP
+                                    <span class="separator">·</span>
+                                </span>
+                                <span>
+                                    MySQL
+                                </span>
+                            </td>
+                            <td class="link">
+                                <a href="https://cubanasuites.com" aria-label="Link" rel="noopener noreferrer" target="_blank">
+                                    <img src="../assets/icons/external-link.svg" alt="" width="20px">
+                                </a>
+                            </td>
+                        </tr>
                         <tr>
                             <td class="year">2022</td>
                             <td class="title">Grad API</td>
-                            <td class="company hide-on-mobile">
+                            <td class="company hidden">
                                 <span>-</span>
                             </td>
-                            <td class="tech hide-on-mobile">
+                            <td class="tech hidden">
                                 <span>
                                     Laravel
                                     <span class="separator">·</span>
@@ -75,10 +126,10 @@
                         <tr>
                             <td class="year">2022</td>
                             <td class="title">Grad Mobile</td>
-                            <td class="company hide-on-mobile">
+                            <td class="company hidden">
                                 <span>-</span>
                             </td>
-                            <td class="tech hide-on-mobile">
+                            <td class="tech hidden">
                                 <span>
                                     Flutter
                                     <span class="separator">·</span>
@@ -99,10 +150,10 @@
                         <tr>
                             <td class="year">2022</td>
                             <td class="title">Boosttaa</td>
-                            <td class="company hide-on-mobile">
+                            <td class="company hidden">
                                 <span>-</span>
                             </td>
-                            <td class="tech hide-on-mobile">
+                            <td class="tech hidden">
                                 <span>
                                     Laravel
                                     <span class="separator">·</span>
@@ -120,10 +171,10 @@
                         <tr>
                             <td class="year">2021</td>
                             <td class="title">Digital Menu</td>
-                            <td class="company hide-on-mobile">
+                            <td class="company hidden">
                                 <span>Jubilee System LTD</span>
                             </td>
-                            <td class="tech hide-on-mobile">
+                            <td class="tech hidden">
                                 <span>
                                     Javascript
                                     <span class="separator">·</span>
@@ -141,20 +192,82 @@
                                 </a>
                             </td>
                         </tr>
+                         <tr>
+                            <td class="year">2021</td>
+                            <td class="title">Narrid</td>
+                            <td class="company hidden">
+                                <span>-</span>
+                            </td>
+                            <td class="tech hidden">
+                                <span>
+                                    Flutter
+                                    <span class="separator">·</span>
+                                </span>
+                                <span>
+                                    Dart
+                                </span>
+                               
+                            </td>
+                            <td class="link flex">
+                                
+                                <a href="https://github.com/realArafatBen/narrid" aria-label="Github" rel="noopener noreferrer" target="_blank">
+                                    <img src="../assets/icons/github.svg" alt="" width="20px">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="year">2021</td>
+                            <td class="title">Niobnat</td>
+                            <td class="company hidden">
+                                <span>Jubilee System LTD</span>
+                            </td>
+                            <td class="tech hidden">
+                                <span>
+                                    Javascript
+                                    <span class="separator">·</span>
+                                </span>
+                                <span>
+                                    PHP
+                                    <span class="separator">·</span>
+                                </span>
+                                <span>
+                                    Laravel
+                                    <span class="separator">·</span>
+                                </span>
+                                <span>
+                                    MySQL
+                                </span>
+                            </td>
+                            <td class="link flex">
+                                
+                                <a href="niobnat.org" aria-label="Github" rel="noopener noreferrer" target="_blank">
+                                    <img src="../assets/icons/external-link.svg" alt="" width="20px">
+                                </a>
+                            </td>
+                        </tr>
                         <tr>
                             <td class="year">2021</td>
                             <td class="title">ICT Carde</td>
-                            <td class="company hide-on-mobile">
+                            <td class="company hidden">
                                 <span>-</span>
                             </td>
-                            <td class="tech hide-on-mobile">
+                            <td class="tech hidden">
                                 <span>
                                     Laravel
                                     <span class="separator">·</span>
                                 </span>
                                 <span>
                                     PHP
+                                    <span class="separator">·</span>
                                 </span>
+                                <span>
+                                    Javascript
+                                    <span class="separator">·</span>
+                                </span>
+                                <span>
+                                    MySQL
+                                </span>
+
                             </td>
                             <td class="link flex">
                                 <a href="https://ictcadreng.org/" aria-label="Github" rel="noopener noreferrer" target="_blank">
@@ -165,10 +278,10 @@
                         <tr>
                             <td class="year">2021</td>
                             <td class="title">Fashoal Mobile App</td>
-                            <td class="company hide-on-mobile">
+                            <td class="company hidden">
                                 <span>-</span>
                             </td>
-                            <td class="tech hide-on-mobile">
+                            <td class="tech hidden">
                                 <span>
                                     Android Studio
                                     <span class="separator">·</span>
@@ -186,10 +299,10 @@
                         <tr>
                             <td class="year">2021</td>
                             <td class="title">Cuebar Abuja</td>
-                            <td class="company hide-on-mobile">
+                            <td class="company hidden">
                                 <span>Jubilee System LTD</span>
                             </td>
-                            <td class="tech hide-on-mobile">
+                            <td class="tech hidden">
                                 <span>
                                     PHP
                                     <span class="separator">·</span>
@@ -207,10 +320,10 @@
                         <tr>
                             <td class="year">2020</td>
                             <td class="title">Bemo groceries</td>
-                            <td class="company hide-on-mobile">
+                            <td class="company hidden">
                                 <span>Bemo technologies</span>
                             </td>
-                            <td class="tech hide-on-mobile">
+                            <td class="tech hidden">
                                 <span>
                                     PHP
                                     <span class="separator">·</span>
@@ -237,13 +350,46 @@
                                 </a>
                             </td>
                         </tr>
+                         <tr>
+                            <td class="year">2020</td>
+                            <td class="title">VTUcredit</td>
+                            <td class="company hidden">
+                                <span>GuageConcepts</span>
+                            </td>
+                            <td class="tech hidden">
+                                <span>
+                                    PHP
+                                    <span class="separator">·</span>
+                                </span>
+                                <span>
+                                    Javascript
+                                    <span class="separator">·</span>
+                                </span>
+                                <span>
+                                    MySQL
+                                    <span class="separator">·</span>
+                                </span>
+                                <span>
+                                    CSS
+                                    <span class="separator">·</span>
+                                </span>
+                                <span>
+                                    JQuery
+                                </span>
+                            </td>
+                            <td class="link flex">
+                                <a href="#" aria-label="Github" rel="noopener noreferrer" target="_blank">
+                                    <img src="../assets/icons/external-link.svg" alt="" width="20px">
+                                </a>
+                            </td>
+                        </tr>
                         <tr>
                             <td class="year">2019</td>
                             <td class="title">Bemoride</td>
-                            <td class="company hide-on-mobile">
+                            <td class="company hidden">
                                 <span>Bemo technologies</span>
                             </td>
-                            <td class="tech hide-on-mobile">
+                            <td class="tech hidden">
                                 <span>
                                     PHP
                                     <span class="separator">·</span>
@@ -273,10 +419,10 @@
                         <tr>
                             <td class="year">2019</td>
                             <td class="title">Sohool Management Software</td>
-                            <td class="company hide-on-mobile">
+                            <td class="company hidden">
                                 <span>-</span>
                             </td>
-                            <td class="tech hide-on-mobile">
+                            <td class="tech hidden">
                                 <span>
                                     PHP
                                     <span class="separator">·</span>
@@ -307,6 +453,7 @@
                     </table>
             </div>
         </section>
+
     </div>
 </template>
 
