@@ -1,5 +1,5 @@
 <template>
-    <section id="contact" class="contact">
+    <section id="contact" class="contact pt-24 sm:pt-24">
         <h2 class="numbered-heading overline">What's Next?</h2>
         <h2 class="title">Get In Touch</h2>
         <p> 

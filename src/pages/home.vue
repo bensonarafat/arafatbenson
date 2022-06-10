@@ -1,5 +1,5 @@
 <template>
-    <section class="homeContent">
+    <section class="homeContent pt-14 sm:pt-24">
     <div class="fadeup-enter-done"><h1>Hi, my name is</h1></div>
     <div class="fadeup-enter-done">
         <h2 class="big-heading">Benson Arafat</h2>
@@ -9,7 +9,8 @@
     </div>
     <div class="fadeup-enter-done">
         <p>
-        I'm a software engineer specializing in building (and occasionally in the backend) exceptional digital experiences. Currently, I'm focused on building web applications at <a href="https://www.jubileesys.com/" target="_blank" rel="noreferrer">Jubilee System</a>.
+            I'm a software engineer specializing in building 
+            (and occasionally in the backend) exceptional digital experiences. Currently, I'm focused on building web applications at <a href="https://www.jubileesys.com/" target="_blank" rel="noreferrer">Jubilee System</a>.
         </p>
     </div>
     </section>

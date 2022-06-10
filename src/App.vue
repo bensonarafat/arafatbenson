@@ -1,11 +1,15 @@
 <template>
-  <div class="layout bg-white dark:bg-slate-900 ">
-    <AppHeader/>
-    <div class="content">
-        <router-view/>
-        <AppFooter/>
+  <div>
+
+    <div class="layout bg-white dark:bg-slate-900 ">
+      <AppHeader/>
+      <div class="content">
+          <router-view/>
+          <AppFooter/>
+      </div>
     </div>
   </div>
+
 </template>
 
 <style>
@@ -28,7 +32,7 @@ body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 2px #a8b2d1;
 }
  body::-webkit-scrollbar {
-    width: 3px;
+    width: 0px;
     height: 4px;
   }
 body::-webkit-scrollbar-thumb {
@@ -61,7 +65,6 @@ p > a {
 
 section {
     margin: 0px auto;
-    padding: 100px 0px;
     max-width: 1000px;
 }
 
@@ -84,8 +87,15 @@ section {
 
 import AppHeader from './components/header';
 import AppFooter from './components/footer';
+
 export default {
   name: 'App',
+  data(){
+    return {
+      isLoading: true,
+      fullPage: true
+    }
+  },
   components: {
     AppHeader, 
     AppFooter,

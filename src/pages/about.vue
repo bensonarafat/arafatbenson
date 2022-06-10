@@ -1,9 +1,9 @@
 <template>
-  <section id="about" class="aboutContent">
+  <section id="about" class="aboutContent pt-24 sm:pt-24">
     <h2 class="numbered-heading">About Me</h2>
     <div class="grid grid-cols-1 gap-5 md:grid-flow-col md:gap-5">
       <div class="about-content">
-        <p class="text-justify">
+        <p>
           Hello! My name is Ben and I enjoy creating things that live on the
           internet. My interest in web development started back in 2015 when I
           designed my first website using my tablet — turns out a

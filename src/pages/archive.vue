@@ -1,6 +1,6 @@
 <template>
     <div class="container mx-auto md:px-40 px-8 sm:px-40">
-        <section>
+        <section class="pt-24 sm:pt-24">
             <header>
                 <h1 class="big-heading">Archive</h1>
                 <p class="subtitle">A big list of things I've worked on</p>

@@ -1,5 +1,5 @@
 <template>
-    <section id="projects">
+    <section id="projects" class="pt-24 sm:pt-24">
         <h2>
             Some Things I've Built
         </h2>
@@ -59,7 +59,7 @@
                         </h3>
                         <div class="project-description">
                             <p>
-                               A mobile app for the grad_api database that allows for CRUD operations on the database. Developed with Laravel and Dart.
+                               A mobile app for the grad_api database that allows for CRUD operations on the database. Developed with Flutter and Dart.
                             </p>
                         </div>
                     </header>
