@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    margin: 0px;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    color: #8892b0;
+    font-family: var(--font-sans);
+    font-size: 20px;
+    line-height: 1.3;
+}
+section:not(:first-child){
+    margin: 0px auto;
+    padding: 100px 0px;
+    max-width: 1000px !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px 0px 10px;
+    font-weight: 600;
+    color: #ccd6f6;
+    line-height: 1.1;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
