@@ -10,11 +10,9 @@
                             <a href="https://halcyon-theme.netlify.com/" rel="noopener noreferrer" target="_blank">Geo Football</a>
                         </h3>
                         <div class="project-description">
-                            <p>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on 
-                                <a href="https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode" target="_blank" rel="noopener noreferrer">Visual Studio Marketplace</a>, 
-                                <a href="https://packagecontrol.io/packages/Halcyon%20Theme" target="_blank" rel="noopener noreferrer">Package Control</a>, 
-                                <a href="https://atom.io/themes/halcyon-syntax" target="_blank" rel="noopener noreferrer">Atom Package Manager</a>, and 
-                                <a href="https://www.npmjs.com/package/hyper-halcyon-theme" target="_blank" rel="noopener noreferrer">npm</a>.
+                            <p>Geo Football gives you all the live scores, stats, and storylines to keep you up to speed with the world of soccer. Available on
+                                <a href="" target="_blank" rel="noopener noreferrer">Google Play Store</a> and
+                                <a href="" target="_blank" rel="noopener noreferrer">Apple Store</a>.
                             </p>
                         </div>
                     </div>
@@ -71,11 +69,9 @@
                         </h3>
                         <div class="project-description">
                             <p>
-                                A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on 
-                                <a href="https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode" target="_blank" rel="noopener noreferrer">Visual Studio Marketplace</a>, 
-                                <a href="https://packagecontrol.io/packages/Halcyon%20Theme" target="_blank" rel="noopener noreferrer">Package Control</a>, 
-                                <a href="https://atom.io/themes/halcyon-syntax" target="_blank" rel="noopener noreferrer">Atom Package Manager</a>, and 
-                                <a href="https://www.npmjs.com/package/hyper-halcyon-theme" target="_blank" rel="noopener noreferrer">npm</a>.
+                                ChatGPT has been one of the biggest talks for the past days. How Al applies machine language algorithms to a massive corpus of text to respond to user's requests. Available on 
+                                <a href="" target="_blank" rel="noopener noreferrer">Google Play Store</a> and 
+                                <a href="" target="_blank" rel="noopener noreferrer">Apple Store</a>.
                             </p>
                         </div>
                     </div>
@@ -127,7 +123,7 @@
     </section>
     <section class="flex flex-col" :style="{'-webkit-box-align': 'center', 'max-width': '1000px'}">
         <h2 :style="{'font-size': 'clamp(24px,5vw,32px)'}">Other Noteworthy Projects</h2>
-        <a href="" class="archive-link inline-link" :style="{'font-size':'14px'}">view the archive</a>
+        <NuxtLink to="/archive" class="archive-link inline-link" :style="{'font-size':'14px'}">view the archive</NuxtLink>
         <ul class="projects-grid">
             <li class="relative">
                 <div class="project-inner">
@@ -151,16 +147,18 @@
                             </div>
                         </div>
                         <h3 class="project-title">
-                            <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">Integrating Algolia Search with WordPress Multisite</a>
+                            <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">
+                                Sleek Nigeria
+                            </a>
                         </h3>
                         <div class="project-description">
-                            <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p></div>
+                            <p>A Cross-platform mobile application for sleek makeup Nigeria, where you can find makeup artist around your location.</p></div>
                     </header>
                     <footer>
                         <ul class="project-tech-list">
-                            <li>Algolia</li>
-                            <li>WordPress</li>
-                            <li>PHP</li>
+                            <li>Flutter</li>
+                            <li>Dart</li>
+                            <li>Getx</li>
                         </ul>
                     </footer>
                 </div>
@@ -188,19 +186,21 @@
                             </div>
                         </div>
                         <h3 class="project-title">
-                            <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">Integrating Algolia Search with WordPress Multisite</a>
+                            <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">
+                                Portfolio
+                            </a>
                         </h3>
                         <div class="project-description">
                             <p>
-                                Building a custom multisite compatible WordPress plugin to build global search with Algolia
+                                My personal portfolio developed with VueJs, Nuxt and Tawilwind CSS
                             </p>
                         </div>
                     </header>
                     <footer>
                         <ul class="project-tech-list">
-                            <li>Algolia</li>
-                            <li>WordPress</li>
-                            <li>PHP</li>
+                            <li>Vue</li>
+                            <li>Nuxt</li>
+                            <li>Tailwindcss</li>
                         </ul>
                     </footer>
                 </div>
@@ -228,19 +228,21 @@
                             </div>
                         </div>
                         <h3 class="project-title">
-                            <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">Integrating Algolia Search with WordPress Multisite</a>
+                            <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">
+                                Zoom Clone
+                            </a>
                         </h3>
                         <div class="project-description">
                             <p>
-                                Building a custom multisite compatible WordPress plugin to build global search with Algolia
+                                Zoom clone developed to function just like normal zoom web application developed with NodeJs and Socket.IO
                             </p>
                         </div>
                     </header>
                     <footer>
                         <ul class="project-tech-list">
-                            <li>Algolia</li>
-                            <li>WordPress</li>
-                            <li>PHP</li>
+                            <li>NodeJS</li>
+                            <li>Ejs</li>
+                            <li>Socket.IO</li>
                         </ul>
                     </footer>
                 </div>
@@ -267,19 +269,104 @@
                             </div>
                         </div>
                         <h3 class="project-title">
-                            <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">Integrating Algolia Search with WordPress Multisite</a>
+                            <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">
+                                WhatsApp Clone
+                            </a>
                         </h3>
                         <div class="project-description">
                             <p>
-                                Building a custom multisite compatible WordPress plugin to build global search with Algolia
+                              WhatsApp Clone developed with ReactJS, uses Firebase for Realtime database and Google Auth.
                             </p>
                         </div>
                     </header>
                     <footer>
                         <ul class="project-tech-list">
-                            <li>Algolia</li>
-                            <li>WordPress</li>
+                            <li>ReactJs</li>
+                            <li>Firebase</li>
+                            <li>Google Auth</li>
+                        </ul>
+                    </footer>
+                </div>
+            </li>
+
+            <li class="relative">
+                <div class="project-inner">
+                    <header class="w-full">
+                        <div class="project-top">
+                            <div class="folder">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder">
+                                    <title>Folder</title>
+                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                                </svg>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" aria-label="External Link" class="external" target="_blank" rel="noopener noreferrer">
+                                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+                                        <title>External Link</title>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">
+                            <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">
+                                Grad Mobile
+                            </a>
+                        </h3>
+                        <div class="project-description">
+                            <p>
+                                Grad mobile app for running of day-to-day operations for school, developed with Flutter/Dart.
+                            </p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>Flutter</li>
+                            <li>Getx</li>
+                            <li>Dart</li>
+                        </ul>
+                    </footer>
+                </div>
+            </li>
+            <li class="relative">
+                <div class="project-inner">
+                    <header class="w-full">
+                        <div class="project-top">
+                            <div class="folder">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder">
+                                    <title>Folder</title>
+                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                                </svg>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" aria-label="External Link" class="external" target="_blank" rel="noopener noreferrer">
+                                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+                                        <title>External Link</title>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">
+                            <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">
+                                Grad API
+                            </a>
+                        </h3>
+                        <div class="project-description">
+                            <p>
+                              A REST API for grad mobile application developed with Laraval/PHP and MySQL Database.
+                            </p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>Laravel</li>
                             <li>PHP</li>
+                            <li>MySQL</li>
                         </ul>
                     </footer>
                 </div>
