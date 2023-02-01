@@ -38,7 +38,7 @@
                         </div>
                     </div>
 
-                    <div class="grow flex-1 image_wrapper">
+                    <div class="grow flex-1 image_wrapper hidden sm:block md:block">
                         <img ref="benimage" src="/images/benson_arafat.jpeg" alt="Benson Arafat">
                     </div>
                 </div>
@@ -89,7 +89,6 @@ ul.skills-list li {
 .image_wrapper {
     box-shadow: 0 10px 30px -15px #020c1bb3;
     transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
-    display: block;
     position: relative;
     width: 100%;
     border-radius: 4px;

@@ -3,7 +3,7 @@
         <div class="max-w-8xl mx-auto">
             <div class="py-4 border-b border-slate-900/10 lg:px-8 lg:border-0 border-slate-300/10 mx-4 lg:mx-0">
                 <div class="relative flex items-center">
-                    <a href="" class="mr-3 flex-none w-[2.0625rem] overflow-hidden md:w-auto flex items-center font-bold">
+                    <NuxtLink to="/" class="mr-3 flex-none overflow-hidden md:w-auto flex items-center font-bold">
                         <img src="/images/logo.png" alt="Ben" :style="{'width':'50px', 'height': '50px', 'margin-right': '0.5rem'}">
                         <span class="header__name">
                             <span>
@@ -17,7 +17,7 @@
                                 Official
                             </span>
                         </span>
-                    </a>
+                    </NuxtLink>
                     <div class="relative lg:flex items-center ml-auto">
                         <nav class="text-sm leading-6 font-semibold text-white">
                             <ul class="flex space-x-8">
