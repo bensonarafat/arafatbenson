@@ -7,16 +7,17 @@
                         <p class="text-4xl font-bold text-[1.4rem]" :style="{'letter-spacing': '1px', 'margin-bottom': '1rem'}">Hello 👋,</p>
                         <h1 class="text-[3.0rem] font-bold" :style="{'line-height':'1', 'margin-bottom': '0.33em'}">I'm Benson Arafat</h1>
                         <div class="text-[2rem] font-light hero__content" :style="{'line-height': '1.4'}">
-                            <p class="pb-3">Developer 🍭 at <a class="hero__link hero__link" href="https://www.jubileesys.com/" target="_blank">Jubilee</a> and Technical Writer 🚀</p>
+                            <p class="pb-3">Developer 🍭 at <a class="hero__link hero__link" href="https://www.codepym.com/" target="_blank">Codepym</a> and Technical Writer 🚀</p>
                             <p class="pb-3">
-                                I’m a full-stack developer and co-founder of 
-                                <a href="https://play.google.com/store/apps/details?id=com.bensonarafat.geo_football" target="_blank" class="hero__link hero__link--codista">Geo Football</a>.
+                                I’m a full-stack developer and founder of 
+                                <a href="https://geofootball.live" target="_blank" class="hero__link hero__link--codista">Geo Football</a>.
                                 <br class="hero__br"/>
                             </p>
                             <p>
                                 I also write about tech on my
-                                <a href="https://blog.bensonarafat.com/" target="_blank" class="hero__link">blog</a>, 
-                                <a href="https://medium.com/@bensonarafat" target="_blank" class="hero__link">Medium</a> and on
+                                <a href="https://blog.bensonarafat.com/" target="_blank" class="hero__link">Blog</a>, 
+                                <a href="https://medium.com/@bensonarafat" target="_blank" class="hero__link">Medium</a>, 
+                                <a href="https://hackernoon.com/u/bensonarafat" target="_blank" class="hero__link">Hackernoon</a> and on
                                 <a href="https://twitter.com/bensonarafat" target="_blank" class="hero__link hero__link--twitter">Twitter</a>. 
                             </p>
 

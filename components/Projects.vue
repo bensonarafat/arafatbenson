@@ -7,12 +7,13 @@
                     <div>
                         <p class="project-overline">Featured Project</p>
                         <h3 class="project-title">
-                            <a href="https://halcyon-theme.netlify.com/" rel="noopener noreferrer" target="_blank">Geo Football</a>
+                            <a href="https://geofootball.live" rel="noopener noreferrer" target="_blank">Geo Football</a>
                         </h3>
                         <div class="project-description">
                             <p>Geo Football gives you all the live scores, stats, and storylines to keep you up to speed with the world of soccer. Available on
-                                <a href="" target="_blank" rel="noopener noreferrer">Google Play Store</a> and
-                                <a href="" target="_blank" rel="noopener noreferrer">Apple Store</a>.
+                                <a href="#" target="_blank" rel="noopener noreferrer">Google Play Store</a>,
+                                <a href="#" target="_blank" rel="noopener noreferrer">Amazon Appstore</a> and 
+                                <a href="#" target="_blank" rel="noopener noreferrer">Apple Store</a>.
                             </p>
                         </div>
                     </div>
@@ -24,18 +25,10 @@
                     </ul>
                     <div class="project-links">
                         <a href="https://github.com/bchiang7/halcyon-site" aria-label="GitHub Link" rel="noopener noreferrer" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
-                                <title>GitHub</title>
-                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                         </a>
                         <a href="https://halcyon-theme.netlify.com/" aria-label="External Link" class="external" rel="noopener noreferrer" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
-                                <title>External Link</title>
-                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                                <polyline points="15 3 21 3 21 9"></polyline>
-                                <line x1="10" y1="14" x2="21" y2="3"></line>
-                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
                         </a>
                     </div>
                 </div>
@@ -49,7 +42,7 @@
                             <picture>
                                 <source type="image/avif" srcset="https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/f47db/halcyon.avif 175w,
                                 https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/f47db/halcyon.avif 350w,
-                                https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/f47db/halcyon.avif 700w" sizes="(min-width: 700px) 700px, 100vw"><source type="image/webp" srcset="/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/240e7/halcyon.webp 175w,
+                                https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/f47db/halcyon.avif 700w" sizes="(min-width: 700px) 700px, 100vw"><source type="image/webp" srcset="https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/d5dc4/halcyon.webp 175w,
                                 https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/faefe/halcyon.webp 350w,
                                 https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/d5dc4/halcyon.webp 700w" sizes="(min-width: 700px) 700px, 100vw"><img width="700" height="438" data-main-image="" sizes="(min-width: 700px) 700px, 100vw" decoding="async" src="https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/d2194/halcyon.png" srcset="https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/cebcc/halcyon.png 175w,
                                 https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/272cf/halcyon.png 350w,
@@ -70,7 +63,8 @@
                         <div class="project-description">
                             <p>
                                 ChatGPT has been one of the biggest talks for the past days. How Al applies machine language algorithms to a massive corpus of text to respond to user's requests. Available on 
-                                <a href="" target="_blank" rel="noopener noreferrer">Google Play Store</a> and 
+                                <a href="" target="_blank" rel="noopener noreferrer">Google Play Store</a>, 
+                                <a href="" target="_blank" rel="noopener noreferrer">Amazon Appstore</a> and
                                 <a href="" target="_blank" rel="noopener noreferrer">Apple Store</a>.
                             </p>
                         </div>
@@ -84,18 +78,10 @@
                     </ul>
                     <div class="project-links">
                         <a href="https://github.com/bchiang7/halcyon-site" aria-label="GitHub Link" rel="noopener noreferrer" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
-                                <title>GitHub</title>
-                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                         </a>
                         <a href="https://halcyon-theme.netlify.com/" aria-label="External Link" class="external" rel="noopener noreferrer" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
-                                <title>External Link</title>
-                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                                <polyline points="15 3 21 3 21 9"></polyline>
-                                <line x1="10" y1="14" x2="21" y2="3"></line>
-                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
                         </a>
                     </div>
                 </div>
@@ -109,7 +95,7 @@
                             <picture>
                                 <source type="image/avif" srcset="https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/f47db/halcyon.avif 175w,
                                 https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/f47db/halcyon.avif 350w,
-                                https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/f47db/halcyon.avif 700w" sizes="(min-width: 700px) 700px, 100vw"><source type="image/webp" srcset="/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/240e7/halcyon.webp 175w,
+                                https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/f47db/halcyon.avif 700w" sizes="(min-width: 700px) 700px, 100vw"><source type="image/webp" srcset="https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/d5dc4/halcyon.webp 175w,
                                 https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/faefe/halcyon.webp 350w,
                                 https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/d5dc4/halcyon.webp 700w" sizes="(min-width: 700px) 700px, 100vw"><img width="700" height="438" data-main-image="" sizes="(min-width: 700px) 700px, 100vw" decoding="async" src="https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/d2194/halcyon.png" srcset="https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/cebcc/halcyon.png 175w,
                                 https://brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/272cf/halcyon.png 350w,
@@ -148,17 +134,60 @@
                         </div>
                         <h3 class="project-title">
                             <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">
-                                Sleek Nigeria
+                                Grad
                             </a>
                         </h3>
                         <div class="project-description">
-                            <p>A Cross-platform mobile application for sleek makeup Nigeria, where you can find makeup artist around your location.</p></div>
+                            <p>
+                                Grad app for running of day-to-day operations for school, developed with Flutter/Dart.
+                            </p>
+                        </div>
+                    </header>
+                    <footer>
+                        <ul class="project-tech-list">
+                            <li>Flutter</li>
+                            <li>Getx</li>
+                            <li>Dart</li>
+                        </ul>
+                    </footer>
+                </div>
+            </li>
+            
+            <li class="relative">
+                <div class="project-inner">
+                    <header class="w-full">
+                        <div class="project-top">
+                            <div class="folder">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder">
+                                    <title>Folder</title>
+                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                                </svg>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" aria-label="External Link" class="external" target="_blank" rel="noopener noreferrer">
+                                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+                                        <title>External Link</title>
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">
+                            <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">
+                                Raktapp
+                            </a>
+                        </h3>
+                        <div class="project-description">
+                            <p>A new and innovative social media platform connecting people like never </p></div>
                     </header>
                     <footer>
                         <ul class="project-tech-list">
                             <li>Flutter</li>
                             <li>Dart</li>
-                            <li>Getx</li>
+                            <li>Provider</li>
+                            <li>NodeJs</li>
                         </ul>
                     </footer>
                 </div>
@@ -289,47 +318,7 @@
                 </div>
             </li>
 
-            <li class="relative">
-                <div class="project-inner">
-                    <header class="w-full">
-                        <div class="project-top">
-                            <div class="folder">
-                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder">
-                                    <title>Folder</title>
-                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                                </svg>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" aria-label="External Link" class="external" target="_blank" rel="noopener noreferrer">
-                                    <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
-                                        <title>External Link</title>
-                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                                        <polyline points="15 3 21 3 21 9"></polyline>
-                                        <line x1="10" y1="14" x2="21" y2="3"></line>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <h3 class="project-title">
-                            <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">
-                                Grad Mobile
-                            </a>
-                        </h3>
-                        <div class="project-description">
-                            <p>
-                                Grad mobile app for running of day-to-day operations for school, developed with Flutter/Dart.
-                            </p>
-                        </div>
-                    </header>
-                    <footer>
-                        <ul class="project-tech-list">
-                            <li>Flutter</li>
-                            <li>Getx</li>
-                            <li>Dart</li>
-                        </ul>
-                    </footer>
-                </div>
-            </li>
+
             <li class="relative">
                 <div class="project-inner">
                     <header class="w-full">

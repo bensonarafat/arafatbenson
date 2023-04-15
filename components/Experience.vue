@@ -6,16 +6,13 @@
             <TabList>
               <div class="inner__left">
                 <Tab as="template" class="activeTab" v-slot="{ selected }"> 
-                  <div :class="{'activeTab': selected, 'inActiveTab' : !selected }">Jubilee System Ltd</div>
+                  <div :class="{'activeTab': selected, 'inActiveTab' : !selected }"> <img width="15" :style="{'padding-right': '5px'}" src="https://media.licdn.com/dms/image/D4D0BAQHoUFJWWm-4Nw/company-logo_100_100/0/1681394451693?e=1689811200&v=beta&t=hx_Eo4Wjon4HJpYhqsxBbCym7tYUvqs769twjkwTAJI"/> Codepym</div>
                 </Tab>
                 <Tab as="template" class="activeTab" v-slot="{ selected }">
-                  <div :class="{'activeTab': selected, 'inActiveTab' : !selected }">BluePortal</div>
+                  <div :class="{'activeTab': selected, 'inActiveTab' : !selected }"> <img width="15" :style="{'padding-right': '5px'}" src="https://media.licdn.com/dms/image/C4D0BAQGLp00edl9VVg/company-logo_100_100/0/1637222604391?e=1689811200&v=beta&t=F3KCh6IVX6hGxpE8Ddwoo-6ZnvXkIUdA8vQ5qDYjhiA"/> BluePortal</div>
                 </Tab>
                 <Tab as="template" class="activeTab" v-slot="{ selected }">
-                  <div :class="{'activeTab': selected, 'inActiveTab' : !selected }">Bemo Groceries</div>
-                </Tab>
-                <Tab as="template" class="activeTab" v-slot="{ selected }">
-                  <div :class="{'activeTab': selected, 'inActiveTab' : !selected }"> Bemo Ride</div>
+                  <div :class="{'activeTab': selected, 'inActiveTab' : !selected }"> <img width="15" :style="{'padding-right': '5px'}" src="https://media.licdn.com/dms/image/C4D0BAQFeRwrW1d2bWw/company-logo_100_100/0/1660311591898?e=1689811200&v=beta&t=3sQmRnIKcWiDvK2BuJSqlPHtlntPyHjpDEaM4Chedfk"/> Bemo Technologies</div>
                 </Tab>
               </div>
             </TabList>
@@ -25,16 +22,15 @@
                   <h3>
                     <span>Software Engineer</span>
                     <span class="company">&nbsp;@&nbsp;
-                      <a href="https://www.jubileesys.com/" class="inline-link" rel="noopener noreferrer" target="_blank">Juilee Systems Ltd</a></span>
+                      <a href="https://www.codepym.com/" class="inline-link" rel="noopener noreferrer" target="_blank">Codepym</a></span>
                   </h3>
-                  <p class="range">Dec 2021 - Present</p>
+                  <p class="range">Feb 2021 - Present</p>
                   <div>
                     <ul>
-                      <li>Reduce the time required to debug the first iteration of a new program by 50% using agile methodology in our software development process to identify and correct errors at each stage of the process instead at the end. </li>
-                      <li>Planned high-end software, improving the overall efficiency of company processes by 25% </li>
-                      <li>Led the development of Sleek Nigeria. Write 80% of the code, and review the rest. Achieved excellent system stability. </li>
-                      <li>Successfully modified numerous software applications that increased user-friendliness by 20%.</li>
-                      <li>Obtained “Employee of the Month” 3 times in a row, owing to exceptional software design and support to all departments.</li>
+                      <li>​​Led a project to implement a new feature that allowed teachers to track student progress more effectively, resulting in a 25% increase in teacher satisfaction.</li>
+                      <li>Worked with a team of developers to improve the platform's user interface and user experience, resulting in a 15% increase in customer retention.</li>
+                      <li>Developed and implemented a new customer service strategy that reduced response times by 50% and increased customer satisfaction scores by 20%. </li>
+                      <li>Successfully launched a new mobile app allowing students to access educational content offline, resulting in a 20% increase in active users.</li>
                     </ul>
                   </div>
                 </div>
@@ -47,33 +43,12 @@
                     <span class="company">&nbsp;@&nbsp;
                       <a href="https://blueportalcompany.com/" class="inline-link" rel="noopener noreferrer" target="_blank">Blueportal Company</a></span>
                   </h3>
-                  <p class="range">Nov 2022 - Present</p>
+                  <p class="range">Dec 2021 - Jan 2023</p>
                   <div>
                     <ul>
-                      <li>Developed and implemented novel software tools. Increased automation and efficiency level by 35%.</li>
-                      <li>Wrote the Backend for SMS using the SaaS model which optimizes school day-to-day operations. Delivered a working version in four weeks, which led to Company’s first Contact with Lagos Secondary School. </li>
-                      <li>Suggested advancement of security and confidentiality of data through the implementation of key processes and protocols.  </li>
-                    </ul>
-                  </div>
-
-                </div>
-              </TabPanel>
-              <TabPanel class="tabWrapper">
-                <div class="tabContent">
-                  
-                  <h3>
-                    <span>Software Engineer</span>
-                    <span class="company">&nbsp;@&nbsp;
-                      <a href="https://bemogroceries.com/" class="inline-link" rel="noopener noreferrer" target="_blank">Bemo Groceries </a></span>
-                  </h3>
-                  <p class="range">Feb 2021 - Dec 2021</p>
-                  <div>
-                    <ul>
-                      <li>​​Developed a business intelligence dashboard that gave the front desk real-time visibility into inventory and procurement. </li>
-                      <li>Removed bugs from CRM software, making it 50% more efficient than before. </li>
-                      <li>Refactored the software structure for online chat services, reducing overhead costs by $2500 per month.</li>
-                      <li>Created a data analysis pipeline that increased program efficiency.  </li>
-                      <li>Singlehandedly designed and developed a processing platform, which resulted in improved general performance. </li>
+                      <li>Developed and implemented novel software tools. Increased automation and efficiency level by 35%. </li>
+                      <li>Developed and implemented a new customer service strategy that reduced response times by 50% and increased customer satisfaction scores by 20%.</li>
+                      <li>Suggested advancement of data security and confidentiality by implementing key processes and protocols. </li>
                     </ul>
                   </div>
 
@@ -84,15 +59,15 @@
                   <h3>
                     <span>Software Engineer</span>
                     <span class="company">&nbsp;@&nbsp;
-                      <a href="https://bemoride.com/" class="inline-link" rel="noopener noreferrer" target="_blank">Bemo Ride </a></span>
+                      <a href="https://bemo.ng/" class="inline-link" rel="noopener noreferrer" target="_blank">Bemo Technologies </a></span>
                   </h3>
                   <p class="range">Apr 2019 - Feb 2021</p>
                   <div>
                     <ul>
-                      <li>Chosen as one of the employees representing the company at the Annual Software Engineers’ Forum</li>
-                      <li>Trained 20+ individuals in handling software development cycles, as part of the induction processes.</li>
-                      <li>Identified areas for modification and improvements within a short span of time. </li>
-                      <li>Redesigned the company’s web-based application, providing information technology support throughout the tenure.  </li>
+                      <li>Successfully led a team of engineers to implement a new surge pricing algorithm that improved pricing accuracy and reduced customer complaints by 25%.</li>
+                      <li>Developed and implemented a new onboarding process for new drivers that reduced the time it took to get them on the road by 50%.</li>
+                      <li>Successfully launched a new ride-sharing feature that allowed customers to share rides and split the cost, resulting in a 30% increase in daily rides.</li>
+                      <li>Increased driver retention by 20% by implementing a new incentive program that rewarded drivers for consistently high ratings and low cancellation rates.</li>
                     </ul>
                   </div>
                 </div>
