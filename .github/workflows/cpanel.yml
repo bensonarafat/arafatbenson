@@ -1,0 +1,19 @@
+name: Deploy Portfolio Online
+on:
+  push:
+    branches:
+      - main
+jobs:
+  web-deploy:
+    name: Deploy 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Deploy
+        uses: actions/checkout@2.3.2
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server_dir: /
+      
+  
