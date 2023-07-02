@@ -6,6 +6,9 @@
             <TabList>
               <div class="inner__left">
                 <Tab as="template" class="activeTab" v-slot="{ selected }"> 
+                  <div :class="{'activeTab': selected, 'inActiveTab' : !selected }"> <img width="15" :style="{'padding-right': '5px'}" src="https://media.licdn.com/dms/image/D4D0BAQGdd_xiGBI5Yg/company-logo_100_100/0/1687532297229?e=1696464000&v=beta&t=8Y7WTySuRJsgGNlFD8TAbDEN_iN7dG2OXF2OOnTffyk"/> ScoreSnap</div>
+                </Tab>
+                <Tab as="template" class="activeTab" v-slot="{ selected }"> 
                   <div :class="{'activeTab': selected, 'inActiveTab' : !selected }"> <img width="15" :style="{'padding-right': '5px'}" src="https://media.licdn.com/dms/image/D4D0BAQHoUFJWWm-4Nw/company-logo_100_100/0/1681394451693?e=1689811200&v=beta&t=hx_Eo4Wjon4HJpYhqsxBbCym7tYUvqs769twjkwTAJI"/> Codepym</div>
                 </Tab>
                 <Tab as="template" class="activeTab" v-slot="{ selected }">
@@ -17,6 +20,21 @@
               </div>
             </TabList>
             <TabPanels>
+              <TabPanel class="tabWrapper">
+                <div class="tabContent">
+                  <h3>
+                    <span>Founder</span>
+                    <span class="company">&nbsp;@&nbsp;
+                      <a href="https://www.scoresnap.io/" class="inline-link" rel="noopener noreferrer" target="_blank">ScoreSnap</a></span>
+                  </h3>
+                  <p class="range">Dec 2022 - Present</p>
+                  <div>
+                    <ul>
+                      <li>Leading and leading a new vision for how we experience football nationwide.</li>
+                    </ul>
+                  </div>
+                </div>
+              </TabPanel>
               <TabPanel class="tabWrapper">
                 <div class="tabContent">
                   <h3>
@@ -59,7 +77,7 @@
                   <h3>
                     <span>Software Engineer</span>
                     <span class="company">&nbsp;@&nbsp;
-                      <a href="https://bemo.ng/" class="inline-link" rel="noopener noreferrer" target="_blank">Bemo Technologies </a></span>
+                      <a href="http://bemotechnologies.com/" class="inline-link" rel="noopener noreferrer" target="_blank">Bemo Technologies </a></span>
                   </h3>
                   <p class="range">June 2019 - Apr 2021</p>
                   <div>
