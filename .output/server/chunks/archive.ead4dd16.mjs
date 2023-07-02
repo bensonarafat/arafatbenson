@@ -37,4 +37,4 @@ _sfc_main.setup = (props, ctx) => {
 const archive = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
 
 export { archive as default };
-//# sourceMappingURL=archive.2702e358.mjs.map
+//# sourceMappingURL=archive.ead4dd16.mjs.map

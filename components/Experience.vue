@@ -24,7 +24,7 @@
                     <span class="company">&nbsp;@&nbsp;
                       <a href="https://www.codepym.com/" class="inline-link" rel="noopener noreferrer" target="_blank">Codepym</a></span>
                   </h3>
-                  <p class="range">Feb 2021 - Present</p>
+                  <p class="range">May 2021 - Present</p>
                   <div>
                     <ul>
                       <li>​​Led a project to implement a new feature that allowed teachers to track student progress more effectively, resulting in a 25% increase in teacher satisfaction.</li>
@@ -43,7 +43,7 @@
                     <span class="company">&nbsp;@&nbsp;
                       <a href="https://blueportalcompany.com/" class="inline-link" rel="noopener noreferrer" target="_blank">Blueportal Company</a></span>
                   </h3>
-                  <p class="range">Dec 2021 - Jan 2023</p>
+                  <p class="range">June 2022 - Present</p>
                   <div>
                     <ul>
                       <li>Developed and implemented novel software tools. Increased automation and efficiency level by 35%. </li>
@@ -61,7 +61,7 @@
                     <span class="company">&nbsp;@&nbsp;
                       <a href="https://bemo.ng/" class="inline-link" rel="noopener noreferrer" target="_blank">Bemo Technologies </a></span>
                   </h3>
-                  <p class="range">Apr 2019 - Feb 2021</p>
+                  <p class="range">June 2019 - Apr 2021</p>
                   <div>
                     <ul>
                       <li>Successfully led a team of engineers to implement a new surge pricing algorithm that improved pricing accuracy and reduced customer complaints by 25%.</li>

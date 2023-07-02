@@ -10,7 +10,7 @@
                             <p class="pb-3">Developer 🍭 at <a class="hero__link hero__link" href="https://www.codepym.com/" target="_blank">Codepym</a> and Technical Writer 🚀</p>
                             <p class="pb-3">
                                 I’m a full-stack developer and founder of 
-                                <a href="https://geofootball.live" target="_blank" class="hero__link hero__link--codista">Geo Football</a>.
+                                <a href="https://scoresnap.io" target="_blank" class="hero__link hero__link--codista">ScoreSnap</a>.
                                 <br class="hero__br"/>
                             </p>
                             <p>

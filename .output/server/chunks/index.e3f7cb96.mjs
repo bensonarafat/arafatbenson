@@ -39,7 +39,7 @@ const _sfc_main$4 = {
   }
 };
 function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<section${ssrRenderAttrs(mergeProps({ id: "about" }, _attrs))}><div class="flex flex-col flex-1"><div class="flex flex-auto flex-col justify-center" style="${ssrRenderStyle({ "padding": "2rem 0 4rem" })}"><div class="flex items-center"><div class="grow flex-1 flex flex-col p-3"><p class="text-4xl font-bold text-[1.4rem]" style="${ssrRenderStyle({ "letter-spacing": "1px", "margin-bottom": "1rem" })}">Hello \u{1F44B},</p><h1 class="text-[3.0rem] font-bold" style="${ssrRenderStyle({ "line-height": "1", "margin-bottom": "0.33em" })}">I&#39;m Benson Arafat</h1><div class="text-[2rem] font-light hero__content" style="${ssrRenderStyle({ "line-height": "1.4" })}"><p class="pb-3">Developer \u{1F36D} at <a class="hero__link hero__link" href="https://www.codepym.com/" target="_blank">Codepym</a> and Technical Writer \u{1F680}</p><p class="pb-3"> I\u2019m a full-stack developer and founder of <a href="https://geofootball.live" target="_blank" class="hero__link hero__link--codista">Geo Football</a>. <br class="hero__br"></p><p> I also write about tech on my <a href="https://blog.bensonarafat.com/" target="_blank" class="hero__link">Blog</a>, <a href="https://medium.com/@bensonarafat" target="_blank" class="hero__link">Medium</a>, <a href="https://hackernoon.com/u/bensonarafat" target="_blank" class="hero__link">Hackernoon</a> and on <a href="https://twitter.com/bensonarafat" target="_blank" class="hero__link hero__link--twitter">Twitter</a>. </p><p class="pt-5"> Here are a few technologies I\u2019ve been working with recently: </p><ul class="skills-list"><li>JavaScript (ES6+)</li><li>ReactJS</li><li>VueJs</li><li>Flutter/Dart</li><li>PHP/Laravel</li><li>NodeJs</li></ul><p class="pt-5"><a href="https://docs.google.com/document/d/1WMOQ5Z2wl3RR9yjOAPD_hRCBp4OvIQVwgqHz6vtQAyk/edit?usp=share_link" target="_blank" class="hero__link hero__link--codista">R\xE9sum\xE9 \u{1F4D1}</a></p></div></div><div class="grow flex-1 image_wrapper hidden sm:block md:block"><img${ssrRenderAttr("src", _imports_0$1)} alt="Benson Arafat"></div></div></div></div></section>`);
+  _push(`<section${ssrRenderAttrs(mergeProps({ id: "about" }, _attrs))}><div class="flex flex-col flex-1"><div class="flex flex-auto flex-col justify-center" style="${ssrRenderStyle({ "padding": "2rem 0 4rem" })}"><div class="flex items-center"><div class="grow flex-1 flex flex-col p-3"><p class="text-4xl font-bold text-[1.4rem]" style="${ssrRenderStyle({ "letter-spacing": "1px", "margin-bottom": "1rem" })}">Hello \u{1F44B},</p><h1 class="text-[3.0rem] font-bold" style="${ssrRenderStyle({ "line-height": "1", "margin-bottom": "0.33em" })}">I&#39;m Benson Arafat</h1><div class="text-[2rem] font-light hero__content" style="${ssrRenderStyle({ "line-height": "1.4" })}"><p class="pb-3">Developer \u{1F36D} at <a class="hero__link hero__link" href="https://www.codepym.com/" target="_blank">Codepym</a> and Technical Writer \u{1F680}</p><p class="pb-3"> I\u2019m a full-stack developer and founder of <a href="https://scoresnap.io" target="_blank" class="hero__link hero__link--codista">ScoreSnap</a>. <br class="hero__br"></p><p> I also write about tech on my <a href="https://blog.bensonarafat.com/" target="_blank" class="hero__link">Blog</a>, <a href="https://medium.com/@bensonarafat" target="_blank" class="hero__link">Medium</a>, <a href="https://hackernoon.com/u/bensonarafat" target="_blank" class="hero__link">Hackernoon</a> and on <a href="https://twitter.com/bensonarafat" target="_blank" class="hero__link hero__link--twitter">Twitter</a>. </p><p class="pt-5"> Here are a few technologies I\u2019ve been working with recently: </p><ul class="skills-list"><li>JavaScript (ES6+)</li><li>ReactJS</li><li>VueJs</li><li>Flutter/Dart</li><li>PHP/Laravel</li><li>NodeJs</li></ul><p class="pt-5"><a href="https://docs.google.com/document/d/1WMOQ5Z2wl3RR9yjOAPD_hRCBp4OvIQVwgqHz6vtQAyk/edit?usp=share_link" target="_blank" class="hero__link hero__link--codista">R\xE9sum\xE9 \u{1F4D1}</a></p></div></div><div class="grow flex-1 image_wrapper hidden sm:block md:block"><img${ssrRenderAttr("src", _imports_0$1)} alt="Benson Arafat"></div></div></div></div></section>`);
 }
 const _sfc_setup$4 = _sfc_main$4.setup;
 _sfc_main$4.setup = (props, ctx) => {
@@ -53,22 +53,22 @@ const _sfc_main$3 = {
   __ssrInlineRender: true,
   setup(__props) {
     return (_ctx, _push, _parent, _attrs) => {
-      _push(`<section${ssrRenderAttrs(mergeProps({ id: "experience" }, _attrs))} data-v-494096cd><h2 class="numbered-heading" data-v-494096cd>Where I\u2019ve Worked</h2>`);
+      _push(`<section${ssrRenderAttrs(mergeProps({ id: "experience" }, _attrs))} data-v-2734cc25><h2 class="numbered-heading" data-v-2734cc25>Where I\u2019ve Worked</h2>`);
       _push(ssrRenderComponent(unref(TabGroup), null, {
         default: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
-            _push2(`<div class="inner" data-v-494096cd${_scopeId}>`);
+            _push2(`<div class="inner" data-v-2734cc25${_scopeId}>`);
             _push2(ssrRenderComponent(unref(TabList), null, {
               default: withCtx((_2, _push3, _parent3, _scopeId2) => {
                 if (_push3) {
-                  _push3(`<div class="inner__left" data-v-494096cd${_scopeId2}>`);
+                  _push3(`<div class="inner__left" data-v-2734cc25${_scopeId2}>`);
                   _push3(ssrRenderComponent(unref(Tab), {
                     as: "template",
                     class: "activeTab"
                   }, {
                     default: withCtx(({ selected }, _push4, _parent4, _scopeId3) => {
                       if (_push4) {
-                        _push4(`<div class="${ssrRenderClass({ "activeTab": selected, "inActiveTab": !selected })}" data-v-494096cd${_scopeId3}><img width="15" style="${ssrRenderStyle({ "padding-right": "5px" })}" src="https://media.licdn.com/dms/image/D4D0BAQHoUFJWWm-4Nw/company-logo_100_100/0/1681394451693?e=1689811200&amp;v=beta&amp;t=hx_Eo4Wjon4HJpYhqsxBbCym7tYUvqs769twjkwTAJI" data-v-494096cd${_scopeId3}> Codepym</div>`);
+                        _push4(`<div class="${ssrRenderClass({ "activeTab": selected, "inActiveTab": !selected })}" data-v-2734cc25${_scopeId3}><img width="15" style="${ssrRenderStyle({ "padding-right": "5px" })}" src="https://media.licdn.com/dms/image/D4D0BAQHoUFJWWm-4Nw/company-logo_100_100/0/1681394451693?e=1689811200&amp;v=beta&amp;t=hx_Eo4Wjon4HJpYhqsxBbCym7tYUvqs769twjkwTAJI" data-v-2734cc25${_scopeId3}> Codepym</div>`);
                       } else {
                         return [
                           createVNode("div", {
@@ -92,7 +92,7 @@ const _sfc_main$3 = {
                   }, {
                     default: withCtx(({ selected }, _push4, _parent4, _scopeId3) => {
                       if (_push4) {
-                        _push4(`<div class="${ssrRenderClass({ "activeTab": selected, "inActiveTab": !selected })}" data-v-494096cd${_scopeId3}><img width="15" style="${ssrRenderStyle({ "padding-right": "5px" })}" src="https://media.licdn.com/dms/image/C4D0BAQGLp00edl9VVg/company-logo_100_100/0/1637222604391?e=1689811200&amp;v=beta&amp;t=F3KCh6IVX6hGxpE8Ddwoo-6ZnvXkIUdA8vQ5qDYjhiA" data-v-494096cd${_scopeId3}> BluePortal</div>`);
+                        _push4(`<div class="${ssrRenderClass({ "activeTab": selected, "inActiveTab": !selected })}" data-v-2734cc25${_scopeId3}><img width="15" style="${ssrRenderStyle({ "padding-right": "5px" })}" src="https://media.licdn.com/dms/image/C4D0BAQGLp00edl9VVg/company-logo_100_100/0/1637222604391?e=1689811200&amp;v=beta&amp;t=F3KCh6IVX6hGxpE8Ddwoo-6ZnvXkIUdA8vQ5qDYjhiA" data-v-2734cc25${_scopeId3}> BluePortal</div>`);
                       } else {
                         return [
                           createVNode("div", {
@@ -116,7 +116,7 @@ const _sfc_main$3 = {
                   }, {
                     default: withCtx(({ selected }, _push4, _parent4, _scopeId3) => {
                       if (_push4) {
-                        _push4(`<div class="${ssrRenderClass({ "activeTab": selected, "inActiveTab": !selected })}" data-v-494096cd${_scopeId3}><img width="15" style="${ssrRenderStyle({ "padding-right": "5px" })}" src="https://media.licdn.com/dms/image/C4D0BAQFeRwrW1d2bWw/company-logo_100_100/0/1660311591898?e=1689811200&amp;v=beta&amp;t=3sQmRnIKcWiDvK2BuJSqlPHtlntPyHjpDEaM4Chedfk" data-v-494096cd${_scopeId3}> Bemo Technologies</div>`);
+                        _push4(`<div class="${ssrRenderClass({ "activeTab": selected, "inActiveTab": !selected })}" data-v-2734cc25${_scopeId3}><img width="15" style="${ssrRenderStyle({ "padding-right": "5px" })}" src="https://media.licdn.com/dms/image/C4D0BAQFeRwrW1d2bWw/company-logo_100_100/0/1660311591898?e=1689811200&amp;v=beta&amp;t=3sQmRnIKcWiDvK2BuJSqlPHtlntPyHjpDEaM4Chedfk" data-v-2734cc25${_scopeId3}> Bemo Technologies</div>`);
                       } else {
                         return [
                           createVNode("div", {
@@ -204,7 +204,7 @@ const _sfc_main$3 = {
                   _push3(ssrRenderComponent(unref(TabPanel), { class: "tabWrapper" }, {
                     default: withCtx((_3, _push4, _parent4, _scopeId3) => {
                       if (_push4) {
-                        _push4(`<div class="tabContent" data-v-494096cd${_scopeId3}><h3 data-v-494096cd${_scopeId3}><span data-v-494096cd${_scopeId3}>Software Engineer</span><span class="company" data-v-494096cd${_scopeId3}>\xA0@\xA0 <a href="https://www.codepym.com/" class="inline-link" rel="noopener noreferrer" target="_blank" data-v-494096cd${_scopeId3}>Codepym</a></span></h3><p class="range" data-v-494096cd${_scopeId3}>Feb 2021 - Present</p><div data-v-494096cd${_scopeId3}><ul data-v-494096cd${_scopeId3}><li data-v-494096cd${_scopeId3}>\u200B\u200BLed a project to implement a new feature that allowed teachers to track student progress more effectively, resulting in a 25% increase in teacher satisfaction.</li><li data-v-494096cd${_scopeId3}>Worked with a team of developers to improve the platform&#39;s user interface and user experience, resulting in a 15% increase in customer retention.</li><li data-v-494096cd${_scopeId3}>Developed and implemented a new customer service strategy that reduced response times by 50% and increased customer satisfaction scores by 20%. </li><li data-v-494096cd${_scopeId3}>Successfully launched a new mobile app allowing students to access educational content offline, resulting in a 20% increase in active users.</li></ul></div></div>`);
+                        _push4(`<div class="tabContent" data-v-2734cc25${_scopeId3}><h3 data-v-2734cc25${_scopeId3}><span data-v-2734cc25${_scopeId3}>Software Engineer</span><span class="company" data-v-2734cc25${_scopeId3}>\xA0@\xA0 <a href="https://www.codepym.com/" class="inline-link" rel="noopener noreferrer" target="_blank" data-v-2734cc25${_scopeId3}>Codepym</a></span></h3><p class="range" data-v-2734cc25${_scopeId3}>May 2021 - Present</p><div data-v-2734cc25${_scopeId3}><ul data-v-2734cc25${_scopeId3}><li data-v-2734cc25${_scopeId3}>\u200B\u200BLed a project to implement a new feature that allowed teachers to track student progress more effectively, resulting in a 25% increase in teacher satisfaction.</li><li data-v-2734cc25${_scopeId3}>Worked with a team of developers to improve the platform&#39;s user interface and user experience, resulting in a 15% increase in customer retention.</li><li data-v-2734cc25${_scopeId3}>Developed and implemented a new customer service strategy that reduced response times by 50% and increased customer satisfaction scores by 20%. </li><li data-v-2734cc25${_scopeId3}>Successfully launched a new mobile app allowing students to access educational content offline, resulting in a 20% increase in active users.</li></ul></div></div>`);
                       } else {
                         return [
                           createVNode("div", { class: "tabContent" }, [
@@ -220,7 +220,7 @@ const _sfc_main$3 = {
                                 }, "Codepym")
                               ])
                             ]),
-                            createVNode("p", { class: "range" }, "Feb 2021 - Present"),
+                            createVNode("p", { class: "range" }, "May 2021 - Present"),
                             createVNode("div", null, [
                               createVNode("ul", null, [
                                 createVNode("li", null, "\u200B\u200BLed a project to implement a new feature that allowed teachers to track student progress more effectively, resulting in a 25% increase in teacher satisfaction."),
@@ -238,7 +238,7 @@ const _sfc_main$3 = {
                   _push3(ssrRenderComponent(unref(TabPanel), { class: "tabWrapper" }, {
                     default: withCtx((_3, _push4, _parent4, _scopeId3) => {
                       if (_push4) {
-                        _push4(`<div class="tabContent" data-v-494096cd${_scopeId3}><h3 data-v-494096cd${_scopeId3}><span data-v-494096cd${_scopeId3}>Software Engineer</span><span class="company" data-v-494096cd${_scopeId3}>\xA0@\xA0 <a href="https://blueportalcompany.com/" class="inline-link" rel="noopener noreferrer" target="_blank" data-v-494096cd${_scopeId3}>Blueportal Company</a></span></h3><p class="range" data-v-494096cd${_scopeId3}>Dec 2021 - Jan 2023</p><div data-v-494096cd${_scopeId3}><ul data-v-494096cd${_scopeId3}><li data-v-494096cd${_scopeId3}>Developed and implemented novel software tools. Increased automation and efficiency level by 35%. </li><li data-v-494096cd${_scopeId3}>Developed and implemented a new customer service strategy that reduced response times by 50% and increased customer satisfaction scores by 20%.</li><li data-v-494096cd${_scopeId3}>Suggested advancement of data security and confidentiality by implementing key processes and protocols. </li></ul></div></div>`);
+                        _push4(`<div class="tabContent" data-v-2734cc25${_scopeId3}><h3 data-v-2734cc25${_scopeId3}><span data-v-2734cc25${_scopeId3}>Software Engineer</span><span class="company" data-v-2734cc25${_scopeId3}>\xA0@\xA0 <a href="https://blueportalcompany.com/" class="inline-link" rel="noopener noreferrer" target="_blank" data-v-2734cc25${_scopeId3}>Blueportal Company</a></span></h3><p class="range" data-v-2734cc25${_scopeId3}>June 2022 - Present</p><div data-v-2734cc25${_scopeId3}><ul data-v-2734cc25${_scopeId3}><li data-v-2734cc25${_scopeId3}>Developed and implemented novel software tools. Increased automation and efficiency level by 35%. </li><li data-v-2734cc25${_scopeId3}>Developed and implemented a new customer service strategy that reduced response times by 50% and increased customer satisfaction scores by 20%.</li><li data-v-2734cc25${_scopeId3}>Suggested advancement of data security and confidentiality by implementing key processes and protocols. </li></ul></div></div>`);
                       } else {
                         return [
                           createVNode("div", { class: "tabContent" }, [
@@ -254,7 +254,7 @@ const _sfc_main$3 = {
                                 }, "Blueportal Company")
                               ])
                             ]),
-                            createVNode("p", { class: "range" }, "Dec 2021 - Jan 2023"),
+                            createVNode("p", { class: "range" }, "June 2022 - Present"),
                             createVNode("div", null, [
                               createVNode("ul", null, [
                                 createVNode("li", null, "Developed and implemented novel software tools. Increased automation and efficiency level by 35%. "),
@@ -271,7 +271,7 @@ const _sfc_main$3 = {
                   _push3(ssrRenderComponent(unref(TabPanel), { class: "tabWrapper" }, {
                     default: withCtx((_3, _push4, _parent4, _scopeId3) => {
                       if (_push4) {
-                        _push4(`<div class="tabContent" data-v-494096cd${_scopeId3}><h3 data-v-494096cd${_scopeId3}><span data-v-494096cd${_scopeId3}>Software Engineer</span><span class="company" data-v-494096cd${_scopeId3}>\xA0@\xA0 <a href="https://bemo.ng/" class="inline-link" rel="noopener noreferrer" target="_blank" data-v-494096cd${_scopeId3}>Bemo Technologies </a></span></h3><p class="range" data-v-494096cd${_scopeId3}>Apr 2019 - Feb 2021</p><div data-v-494096cd${_scopeId3}><ul data-v-494096cd${_scopeId3}><li data-v-494096cd${_scopeId3}>Successfully led a team of engineers to implement a new surge pricing algorithm that improved pricing accuracy and reduced customer complaints by 25%.</li><li data-v-494096cd${_scopeId3}>Developed and implemented a new onboarding process for new drivers that reduced the time it took to get them on the road by 50%.</li><li data-v-494096cd${_scopeId3}>Successfully launched a new ride-sharing feature that allowed customers to share rides and split the cost, resulting in a 30% increase in daily rides.</li><li data-v-494096cd${_scopeId3}>Increased driver retention by 20% by implementing a new incentive program that rewarded drivers for consistently high ratings and low cancellation rates.</li></ul></div></div>`);
+                        _push4(`<div class="tabContent" data-v-2734cc25${_scopeId3}><h3 data-v-2734cc25${_scopeId3}><span data-v-2734cc25${_scopeId3}>Software Engineer</span><span class="company" data-v-2734cc25${_scopeId3}>\xA0@\xA0 <a href="https://bemo.ng/" class="inline-link" rel="noopener noreferrer" target="_blank" data-v-2734cc25${_scopeId3}>Bemo Technologies </a></span></h3><p class="range" data-v-2734cc25${_scopeId3}>June 2019 - Apr 2021</p><div data-v-2734cc25${_scopeId3}><ul data-v-2734cc25${_scopeId3}><li data-v-2734cc25${_scopeId3}>Successfully led a team of engineers to implement a new surge pricing algorithm that improved pricing accuracy and reduced customer complaints by 25%.</li><li data-v-2734cc25${_scopeId3}>Developed and implemented a new onboarding process for new drivers that reduced the time it took to get them on the road by 50%.</li><li data-v-2734cc25${_scopeId3}>Successfully launched a new ride-sharing feature that allowed customers to share rides and split the cost, resulting in a 30% increase in daily rides.</li><li data-v-2734cc25${_scopeId3}>Increased driver retention by 20% by implementing a new incentive program that rewarded drivers for consistently high ratings and low cancellation rates.</li></ul></div></div>`);
                       } else {
                         return [
                           createVNode("div", { class: "tabContent" }, [
@@ -287,7 +287,7 @@ const _sfc_main$3 = {
                                 }, "Bemo Technologies ")
                               ])
                             ]),
-                            createVNode("p", { class: "range" }, "Apr 2019 - Feb 2021"),
+                            createVNode("p", { class: "range" }, "June 2019 - Apr 2021"),
                             createVNode("div", null, [
                               createVNode("ul", null, [
                                 createVNode("li", null, "Successfully led a team of engineers to implement a new surge pricing algorithm that improved pricing accuracy and reduced customer complaints by 25%."),
@@ -319,7 +319,7 @@ const _sfc_main$3 = {
                               }, "Codepym")
                             ])
                           ]),
-                          createVNode("p", { class: "range" }, "Feb 2021 - Present"),
+                          createVNode("p", { class: "range" }, "May 2021 - Present"),
                           createVNode("div", null, [
                             createVNode("ul", null, [
                               createVNode("li", null, "\u200B\u200BLed a project to implement a new feature that allowed teachers to track student progress more effectively, resulting in a 25% increase in teacher satisfaction."),
@@ -347,7 +347,7 @@ const _sfc_main$3 = {
                               }, "Blueportal Company")
                             ])
                           ]),
-                          createVNode("p", { class: "range" }, "Dec 2021 - Jan 2023"),
+                          createVNode("p", { class: "range" }, "June 2022 - Present"),
                           createVNode("div", null, [
                             createVNode("ul", null, [
                               createVNode("li", null, "Developed and implemented novel software tools. Increased automation and efficiency level by 35%. "),
@@ -374,7 +374,7 @@ const _sfc_main$3 = {
                               }, "Bemo Technologies ")
                             ])
                           ]),
-                          createVNode("p", { class: "range" }, "Apr 2019 - Feb 2021"),
+                          createVNode("p", { class: "range" }, "June 2019 - Apr 2021"),
                           createVNode("div", null, [
                             createVNode("ul", null, [
                               createVNode("li", null, "Successfully led a team of engineers to implement a new surge pricing algorithm that improved pricing accuracy and reduced customer complaints by 25%."),
@@ -474,7 +474,7 @@ const _sfc_main$3 = {
                               }, "Codepym")
                             ])
                           ]),
-                          createVNode("p", { class: "range" }, "Feb 2021 - Present"),
+                          createVNode("p", { class: "range" }, "May 2021 - Present"),
                           createVNode("div", null, [
                             createVNode("ul", null, [
                               createVNode("li", null, "\u200B\u200BLed a project to implement a new feature that allowed teachers to track student progress more effectively, resulting in a 25% increase in teacher satisfaction."),
@@ -502,7 +502,7 @@ const _sfc_main$3 = {
                               }, "Blueportal Company")
                             ])
                           ]),
-                          createVNode("p", { class: "range" }, "Dec 2021 - Jan 2023"),
+                          createVNode("p", { class: "range" }, "June 2022 - Present"),
                           createVNode("div", null, [
                             createVNode("ul", null, [
                               createVNode("li", null, "Developed and implemented novel software tools. Increased automation and efficiency level by 35%. "),
@@ -529,7 +529,7 @@ const _sfc_main$3 = {
                               }, "Bemo Technologies ")
                             ])
                           ]),
-                          createVNode("p", { class: "range" }, "Apr 2019 - Feb 2021"),
+                          createVNode("p", { class: "range" }, "June 2019 - Apr 2021"),
                           createVNode("div", null, [
                             createVNode("ul", null, [
                               createVNode("li", null, "Successfully led a team of engineers to implement a new surge pricing algorithm that improved pricing accuracy and reduced customer complaints by 25%."),
@@ -561,7 +561,7 @@ _sfc_main$3.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Experience.vue");
   return _sfc_setup$3 ? _sfc_setup$3(props, ctx) : void 0;
 };
-const __nuxt_component_1 = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-494096cd"]]);
+const __nuxt_component_1 = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-2734cc25"]]);
 const _sfc_main$2 = {};
 function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
   const _component_NuxtLink = __nuxt_component_0$1;
@@ -639,4 +639,4 @@ _sfc_main.setup = (props, ctx) => {
 const index = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
 
 export { index as default };
-//# sourceMappingURL=index.c93a0d71.mjs.map
+//# sourceMappingURL=index.e3f7cb96.mjs.map
