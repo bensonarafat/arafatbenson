@@ -1,0 +1,10 @@
+version: '2.17.2'
+services:
+  portfolio:
+    build: /
+    container_name: portfolio
+    ports:
+      - 4000:4000
+    volumes:
+      - /:/app
+      - /app/node_modules

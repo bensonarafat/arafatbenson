@@ -1,0 +1,6 @@
+const Contact_vue_vue_type_style_index_0_scoped_c95c3897_lang = "#contact[data-v-c95c3897]{margin:0 auto 100px;max-width:600px;text-align:center}#contact .overliner[data-v-c95c3897]{display:block;margin-bottom:20px}#contact .overliner[data-v-c95c3897],.overliner[data-v-c95c3897]{color:#ff5277;font-size:16px;font-weight:400}.numbered-heading[data-v-c95c3897]{align-items:center;display:flex;font-size:clamp(26px,5vw,32px);margin:10px 0 40px;position:relative;white-space:nowrap;width:100%}#contact .title[data-v-c95c3897]{font-size:clamp(40px,5vw,60px)}#contact .email-link[data-v-c95c3897]{background-color:transparent;border:1px solid #ff5277;border-radius:4px;color:#ff5277;cursor:pointer;font-size:14px;line-height:1;margin-top:50px;padding:1.25rem 1.75rem;text-decoration:none;transition:all .25s cubic-bezier(.645,.045,.355,1)}#contact .email-link[data-v-c95c3897]:active,#contact .email-link[data-v-c95c3897]:focus,#contact .email-link[data-v-c95c3897]:hover{background-color:rgba(100,255,218,.1);outline:none}";
+
+const ContactStyles_bc617cb5 = [Contact_vue_vue_type_style_index_0_scoped_c95c3897_lang];
+
+export { ContactStyles_bc617cb5 as default };
+//# sourceMappingURL=Contact-styles.bc617cb5.mjs.map

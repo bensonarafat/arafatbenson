@@ -2,9 +2,9 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --port=3000",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
+    "preview": "cross-env PORT=3000 node .output/server/index.mjs",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
