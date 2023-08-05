@@ -6,16 +6,16 @@
             <TabList>
               <div class="inner__left">
                 <Tab as="template" class="activeTab" v-slot="{ selected }"> 
-                  <div :class="{'activeTab': selected, 'inActiveTab' : !selected }"> <img width="15" :style="{'padding-right': '5px'}" src="https://media.licdn.com/dms/image/D4D0BAQGdd_xiGBI5Yg/company-logo_100_100/0/1687532297229?e=1696464000&v=beta&t=8Y7WTySuRJsgGNlFD8TAbDEN_iN7dG2OXF2OOnTffyk"/> ScoreSnap</div>
+                  <div :class="{'activeTab': selected, 'inActiveTab' : !selected }"> <img width="15" :style="{'padding-right': '5px'}" src="/images/scoresnap.jpeg"/> ScoreSnap</div>
                 </Tab>
                 <Tab as="template" class="activeTab" v-slot="{ selected }"> 
-                  <div :class="{'activeTab': selected, 'inActiveTab' : !selected }"> <img width="15" :style="{'padding-right': '5px'}" src="https://media.licdn.com/dms/image/D4D0BAQHoUFJWWm-4Nw/company-logo_100_100/0/1681394451693?e=1689811200&v=beta&t=hx_Eo4Wjon4HJpYhqsxBbCym7tYUvqs769twjkwTAJI"/> Codepym</div>
+                  <div :class="{'activeTab': selected, 'inActiveTab' : !selected }"> <img width="15" :style="{'padding-right': '5px'}" src="/images/codepym.jpeg"/> Codepym</div>
                 </Tab>
                 <Tab as="template" class="activeTab" v-slot="{ selected }">
-                  <div :class="{'activeTab': selected, 'inActiveTab' : !selected }"> <img width="15" :style="{'padding-right': '5px'}" src="https://media.licdn.com/dms/image/C4D0BAQGLp00edl9VVg/company-logo_100_100/0/1637222604391?e=1689811200&v=beta&t=F3KCh6IVX6hGxpE8Ddwoo-6ZnvXkIUdA8vQ5qDYjhiA"/> BluePortal</div>
+                  <div :class="{'activeTab': selected, 'inActiveTab' : !selected }"> <img width="15" :style="{'padding-right': '5px'}" src="/images/blueportal.jpeg"/> BluePortal</div>
                 </Tab>
                 <Tab as="template" class="activeTab" v-slot="{ selected }">
-                  <div :class="{'activeTab': selected, 'inActiveTab' : !selected }"> <img width="15" :style="{'padding-right': '5px'}" src="https://media.licdn.com/dms/image/C4D0BAQFeRwrW1d2bWw/company-logo_100_100/0/1660311591898?e=1689811200&v=beta&t=3sQmRnIKcWiDvK2BuJSqlPHtlntPyHjpDEaM4Chedfk"/> Bemo Technologies</div>
+                  <div :class="{'activeTab': selected, 'inActiveTab' : !selected }"> <img width="15" :style="{'padding-right': '5px'}" src="/images/bemo.jpeg"/> Bemo Technologies</div>
                 </Tab>
               </div>
             </TabList>

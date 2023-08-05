@@ -1,5 +1,11 @@
 <template>
     <div>
+      <vue-particles
+            id="tsparticles"
+            :options="options"
+            url="/json/particles.json"
+            :particles-init="particlesInit"
+        />
         <!-- App Header -->
         <AppHeader/>
         <!-- AppHeader -->
@@ -10,6 +16,43 @@
     </div>
 </template>
 
+<script>
+import { loadFull } from "tsparticles";
+
+export default {
+    name: "NuxtTutorial",
+    data() {
+        return {
+            options: {
+                fullScreen: {
+                    enable: true,
+                    zIndex: -1
+                },
+                particles: {
+                    color: {
+                        value: "#000"
+                    },
+                    links: {
+                        color: "#000",
+                        enable: true
+                    },
+                    move: {
+                        enable: true
+                    },
+                    number: {
+                        value: 100
+                    }
+                }
+            }
+        };
+    },
+    methods: {
+        particlesInit: async (engine) => {
+            await loadFull(engine);
+        }
+    }
+};
+</script>
 <style>
 body {
   background-color: #fff;

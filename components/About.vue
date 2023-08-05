@@ -7,10 +7,10 @@
                         <p class="text-4xl font-bold text-[1.4rem]" :style="{'letter-spacing': '1px', 'margin-bottom': '1rem'}">Hello 👋,</p>
                         <h1 class="text-[3.0rem] font-bold" :style="{'line-height':'1', 'margin-bottom': '0.33em'}">I'm Benson Arafat</h1>
                         <div class="text-[2rem] font-light hero__content" :style="{'line-height': '1.4'}">
-                            <p class="pb-3">Developer 🍭 at <a class="hero__link hero__link" href="https://www.codepym.com/" target="_blank">Codepym</a> and Technical Writer 🚀</p>
+                            <p class="pb-3">Developer 🍭 at <a class="hero__link hero__link" href="https://www.codepym.com/" target="_blank">Codepym</a>, 🤖 Open-Source contributor and Technical Writer 🚀</p>
                             <p class="pb-3">
                                 I’m a full-stack developer and founder of 
-                                <a href="https://scoresnap.io" target="_blank" class="hero__link hero__link--codista">ScoreSnap</a>.
+                                <a href="https://scoresnap.io" target="_blank" class="hero__link hero__link--codista">⚽ ScoreSnap</a>.
                                 <br class="hero__br"/>
                             </p>
                             <p>
@@ -26,11 +26,11 @@
                             </p>
                             <ul class="skills-list">
                                 <li>JavaScript (ES6+)</li>
-                                <li>ReactJS</li>
                                 <li>VueJs</li>
                                 <li>Flutter/Dart</li>
                                 <li>PHP/Laravel</li>
                                 <li>NodeJs</li>
+                                <li>DigitalOcean</li>
 
                             </ul>
                             <p class="pt-5">
@@ -51,7 +51,7 @@
 export default {
   methods: {
     changeImageBlendMode() {
-        // 'width': '35rem',
+      
         let img = this.$refs.benimage;
         img.setAttribute('style', 'mix-blend-mode: none');
     },
