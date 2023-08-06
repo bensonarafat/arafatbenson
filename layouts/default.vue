@@ -9,16 +9,13 @@
         <!-- page view -->
         <vue-particles
               id="tsparticles"
-              :options="options"
               url="/json/particles.json"
               :particles-init="particlesInit"
           />
     </div>
 </template>
-
 <script>
 import { loadFull } from "tsparticles";
-
 export default {
     name: "NuxtTutorial",
     data() {

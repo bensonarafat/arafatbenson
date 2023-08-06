@@ -45,10 +45,19 @@
                   <p class="range">May 2021 - Present</p>
                   <div>
                     <ul>
-                      <li>​​Led a project to implement a new feature that allowed teachers to track student progress more effectively, resulting in a 25% increase in teacher satisfaction.</li>
-                      <li>Worked with a team of developers to improve the platform's user interface and user experience, resulting in a 15% increase in customer retention.</li>
-                      <li>Developed and implemented a new customer service strategy that reduced response times by 50% and increased customer satisfaction scores by 20%. </li>
-                      <li>Successfully launched a new mobile app allowing students to access educational content offline, resulting in a 20% increase in active users.</li>
+                      <li>Reduced the time required to debug the first iteration of a new program by 50% by utilising agile methodology in the technical team’s software development process and identified and corrected errors at each stage of the process instead of the end.</li>
+                      <li>
+                        Improved overall efficiency of company processes by 25% by championing the comprehensive planning of high-end software development
+                      </li>
+                      <li>
+                        Led the software development project for a top product, reviewing the test and consequently achieving an excellent system stability
+                      </li>
+                      <li>
+                        Led product to implement a new feature that allowed teachers to track student progress more effectively, resulting in a 25% increase in teacher satisfaction.
+                      </li>
+                      <li>
+                        Received the Employee of the Month award 3 times in a row following exceptional software design and immense support to all department.
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -61,12 +70,21 @@
                     <span class="company">&nbsp;@&nbsp;
                       <a href="https://blueportalcompany.com/" class="inline-link" rel="noopener noreferrer" target="_blank">Blueportal Company</a></span>
                   </h3>
-                  <p class="range">June 2022 - Present</p>
+                  <p class="range">Apr 2022 - Present</p>
                   <div>
                     <ul>
-                      <li>Developed and implemented novel software tools. Increased automation and efficiency level by 35%. </li>
-                      <li>Developed and implemented a new customer service strategy that reduced response times by 50% and increased customer satisfaction scores by 20%.</li>
-                      <li>Suggested advancement of data security and confidentiality by implementing key processes and protocols. </li>
+                      <li>
+                        Oversaw the development and implemented novel software tools, increased automation and efficiency level by 35%.  
+                      </li>
+                      <li>
+                        Provided insights on the advancement of security and confidentiality of data through the implementation of key processes and protocols backed by rich experience in development and database management.
+                      </li>
+                      <li>
+                        Developed and implement a new customer service strategy that reduced response times by 50% and increased customer satisfaction scores by 20%.
+                      </li>
+                      <li>
+                        Led the development of a new version of the Fore application in just four (4) weeks, which led to the company's first contact with Lagos State Government.
+                      </li>
                     </ul>
                   </div>
 
@@ -79,13 +97,41 @@
                     <span class="company">&nbsp;@&nbsp;
                       <a href="http://bemotechnologies.com/" class="inline-link" rel="noopener noreferrer" target="_blank">Bemo Technologies </a></span>
                   </h3>
-                  <p class="range">June 2019 - Apr 2021</p>
+                  <p class="range">Jan 2020 - Apr 2021</p>
                   <div>
                     <ul>
-                      <li>Successfully led a team of engineers to implement a new surge pricing algorithm that improved pricing accuracy and reduced customer complaints by 25%.</li>
-                      <li>Developed and implemented a new onboarding process for new drivers that reduced the time it took to get them on the road by 50%.</li>
-                      <li>Successfully launched a new ride-sharing feature that allowed customers to share rides and split the cost, resulting in a 30% increase in daily rides.</li>
-                      <li>Increased driver retention by 20% by implementing a new incentive program that rewarded drivers for consistently high ratings and low cancellation rates.</li>
+                      <li>
+                        Chosen as one of the employees representing the company at the Annual Software Engineer's Forum
+                      </li>
+                      <li>
+                        Trained 20+ individuals in handling product use cycles as part of the induction processes.
+                      </li>
+                      <li>
+                        Independently managed the design and development of a processing platform, consequently achieving improvements in general performance.
+                      </li>
+                      <li>
+                        Successfully launched a new ride feature that allowed customers to share rides and split the cost, resulting in a 30% increase in daily rides
+                      </li>
+                    </ul>
+                  </div>
+                  <h3>
+                    <span>Web Developer</span>
+                  </h3>
+                  <p class="range">Jun 2019 - Jan 2020</p>
+                  <div>
+                    <ul>
+                      <li>
+                        Developed a business intelligence dashboard that provided the front desk with real-time visibility into inventory and procurement.
+                      </li>
+                      <li>
+                        Identified areas for modification and improvements within a short period
+                      </li>
+                      <li>
+                        Increased driver usage by 20% by implementing a new incentive program that rewarded drivers for consistently high ratings.
+                      </li>
+                      <li>
+                        Increased the efficiency of the CRM software by 50% following a robust debugging exercise and creating a data analysis pipeline
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -106,7 +152,7 @@
     padding: 0px;
     margin: 0px;
     list-style: none;
-    font-size: 16px;
+    font-size: 14px;
 }
 .tabContent ul li {
     position: relative;
