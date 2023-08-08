@@ -1,8 +1,8 @@
 <template>
     <section id="contact">
-        <h2 class="numbered-heading overliner">What’s Next?</h2>
+        <h2 class="numbered-heading overliner">What's Next?</h2>
         <h2 class="title">Get In Touch</h2>
-        <p>I’m currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
+        <p class="text-[16px]">I'm currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
         <a class="email-link" href="mailto:benpaul320@gmail.com" rel="noopener noreferrer" target="_blank">Say Hello</a>
         <div class="flex justify-around mt-20 px-20">
             <a href="https://twitter.com/bensonarafat" target="_blank">

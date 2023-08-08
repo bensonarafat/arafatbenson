@@ -31,6 +31,9 @@
                                     <a class="hover:text-[#ff5277]" href="/#project">Projects</a>
                                 </li>
                                 <li>
+                                    <a class="hover:text-[#ff5277]" href="/#open-source">Open Source</a>
+                                </li>
+                                <li>
                                     <a class="hover:text-[#ff5277]" href="https://blog.bensonarafat.com/" target="black">Blog</a>
                                 </li>
                                 <li>

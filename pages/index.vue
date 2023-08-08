@@ -3,6 +3,7 @@
         <About/>
         <Experience/>
         <Projects/>
+        <OpenSource/>
         <Contact/>
     </div>
 </template>

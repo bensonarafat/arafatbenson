@@ -1,5 +1,5 @@
 <template>
-    <section id="experience">
+    <section id="experience" class="pb-0">
         <h2 class="numbered-heading">Where I’ve Worked</h2>
         <TabGroup>
           <div class="inner">
@@ -27,7 +27,7 @@
                     <span class="company">&nbsp;@&nbsp;
                       <a href="https://www.scoresnap.io/" class="inline-link" rel="noopener noreferrer" target="_blank">ScoreSnap</a></span>
                   </h3>
-                  <p class="range">Dec 2022 - Present</p>
+                  <p class="range">August 2023 - Present</p>
                   <div>
                     <ul>
                       <li>Leading and leading a new vision for how we experience football nationwide.</li>
@@ -97,7 +97,7 @@
                     <span class="company">&nbsp;@&nbsp;
                       <a href="http://bemotechnologies.com/" class="inline-link" rel="noopener noreferrer" target="_blank">Bemo Technologies </a></span>
                   </h3>
-                  <p class="range">Jan 2020 - Apr 2021</p>
+                  <p class="range">Jun 2019 - Apr 2021</p>
                   <div>
                     <ul>
                       <li>
@@ -113,27 +113,7 @@
                         Successfully launched a new ride feature that allowed customers to share rides and split the cost, resulting in a 30% increase in daily rides
                       </li>
                     </ul>
-                  </div>
-                  <h3>
-                    <span>Web Developer</span>
-                  </h3>
-                  <p class="range">Jun 2019 - Jan 2020</p>
-                  <div>
-                    <ul>
-                      <li>
-                        Developed a business intelligence dashboard that provided the front desk with real-time visibility into inventory and procurement.
-                      </li>
-                      <li>
-                        Identified areas for modification and improvements within a short period
-                      </li>
-                      <li>
-                        Increased driver usage by 20% by implementing a new incentive program that rewarded drivers for consistently high ratings.
-                      </li>
-                      <li>
-                        Increased the efficiency of the CRM software by 50% following a robust debugging exercise and creating a data analysis pipeline
-                      </li>
-                    </ul>
-                  </div>
+                  </div> 
                 </div>
               </TabPanel>
             </TabPanels>
@@ -144,7 +124,7 @@
 <style scoped>
 .tabContent h3 {
     margin-bottom: 2px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1.3;
 }
@@ -251,7 +231,7 @@
     position: relative;
     margin: 10px 0px 40px;
     width: 100%;
-    font-size: clamp(26px,5vw,32px);
+    font-size: clamp(20px,5vw,15px);
     white-space: nowrap;
 }
 .numbered-heading::after {
